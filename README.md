@@ -4,56 +4,22 @@ Open the Python Note Book with Google Colab or Jupyter NoteBook.
 Execute the cells in the order in order to get each cell's output.
 Python Version used is 3.10.2
 Also make sure tha the following library related things are installed using 'pip install'
-# Import libraries for manipulating numpy arrays and pandas data frames
-import pandas as pd
-import numpy as np
-
-# Import libraries for word, string, regular expression related operations
-import re
-import string
-from collections import defaultdict
-from wordcloud import WordCloud,STOPWORDS
-
-# Import libraries for plots
-import matplotlib.pyplot as plt
-import seaborn as sns
-from plotly import tools
-from plotly import subplots
-import plotly.graph_objs as go
-from plotly.offline import iplot
-
-# Import nltk libraries
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-
-# Import libraries for splitting dataset and implementing algorithms, calculating performances
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn import tree
-from sklearn.svm import SVC
-from sklearn.ensemble import BaggingClassifier
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.linear_model import RidgeClassifier
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import classification_report
-
-import time
-
-
+        
+        1. Pandas
+        2. Numpy
+        3. re
+        4. string
+        5. collections
+        6. wordcloud
+        7. matplotlib
+        8. seaborn
+        9. sklearn
+        10. plotly
+        11. nltk
 
 # Explanation
 Introduction :
 Amazon and Flipkart have become the most frequent e-commerce websites today that millions of their products and reviews play a very vital role in data analysis.  Dataset from Kaggle at https://www.kaggle.com/datasets/vivekgediya/ecommerce-product-review-data?select=Flipkart_Reviews+-+Electronics.csv is considered for analysis. Using this dataset, analysis of amazon and flipkart product reviews is carried out using different Machine Learning classification algorithms. This blog contains the step wise procedure followed for executing different classification algorithms for analysis.
-
-Please Find the code for this blog here.
-
-Please find a brief YouTube video here.
 
 Algorithmic Explanation :
 Classification Algorithms are used for categorizing the given data into classes or categories. Let's look at some classification algorithms.
